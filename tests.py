@@ -10,8 +10,7 @@ class FlatListTestCase(unittest.TestCase):
 
     def test_isinstance(self):
         self.assertIsInstance(
-            self.test_data, list
-        )
+            self.test_data, list)
 
     def test_elements_isint(self):
         for element in self.test_data:
@@ -19,9 +18,7 @@ class FlatListTestCase(unittest.TestCase):
 
     def test_equal_list(self):
         self.assertEqual(
-            self.test_data,
-            [1, 2, 3, 4, 5, 1]
-        )
+            self.test_data, [1, 2, 3, 4, 5, 1])
 
 
 if __name__ == '__main__':
